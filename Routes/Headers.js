@@ -7,4 +7,4 @@ router.get("/get-headers", (req, res) => {
   res.json(headers);
 });
 
-module.exports = router; // Correct export
+module.exports = router; 

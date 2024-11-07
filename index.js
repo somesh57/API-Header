@@ -6,7 +6,7 @@ const PORT = 3000;
 const headersRoute = require("./Routes/Headers");
 
 
-app.use("/", headersRoute); // Ye sahi use hai
+app.use("/", headersRoute); 
 
 
 app.listen(PORT, () => {
